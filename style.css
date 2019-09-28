@@ -4,22 +4,44 @@ body {
     width: 960px;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     font-size: 18px;
+    margin: auto;
 
 }
-
-header {  
+.header {  
     color: #ebebeb;
-    height: 100;
+    height: 150;
     width: 900px;
+    margin: auto;
+    border: #ebebeb;
+    padding: 50px;
 
 }
+nav{
+    background: #ebebeb;
+    margin: 50px 50px;
+    width: 900px;
+    height: 150px;
+}
+
 section {
     background: #ebebeb;
     width: 495px;
+    margin: auto;
+    margin-top: 50px;
+    float: left;
+}
+#aside {
+    background: #ebebeb;
+    margin: 50px 50px;
+    padding: 50px 50px;
+    float: right;
 }
 .blog {
     color: #ebebeb;
     background: #777;
+    float: left;
+    margin: 50px 50px;
+    padding: 50px 50px;
 }
 .heading{
     color: #777;
@@ -29,9 +51,4 @@ section {
     color: #777;
     background: #ebebeb;
 }
-#aside {
-    background: #ebebeb;
-}
-nav{
-    background: #ebebeb;
-}
+
