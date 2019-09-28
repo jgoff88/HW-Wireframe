@@ -6,18 +6,18 @@ body {
     font-size: 18px;
 
 }
-/**style header**/
+
 header {  
     color: #ebebeb;
     height: 100;
     width: 900px;
-    text-align: center;
+
 }
-section{
-    background: #ebebeb
+section {
+    background: #ebebeb;
+    width: 495px;
 }
-/**style blog**/
-.#blog {
+.blog {
     color: #ebebeb;
     background: #777;
 }
@@ -27,5 +27,11 @@ section{
 }
 .para{
     color: #777;
+    background: #ebebeb;
+}
+#aside {
+    background: #ebebeb;
+}
+nav{
     background: #ebebeb;
 }
