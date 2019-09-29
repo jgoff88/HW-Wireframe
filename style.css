@@ -8,18 +8,17 @@ body {
 
 }
 .header {  
-    color: #ebebeb;
-    height: 150;
+    background: #ebebeb;
+    height: 150px;
     width: 900px;
-    margin: 0 auto;
+    margin: 50px 50px 50px 50px;
     border: #ebebeb;
-    padding: 50px;
     text-align: center;
 
 }
 nav{
     background: #ebebeb;
-    margin: 50px 50px 50px 50px;
+    margin: 050px 50px 50px 50px;
     width: 900px;
     height: 150px;
 }
@@ -38,7 +37,6 @@ section {
 }
 .aside {
     background: #ebebeb;
-    width: 495px;
     height: 300px;
     margin: 50px 50px 50px 50px auto;
     padding: 50px 50px;
