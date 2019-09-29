@@ -4,44 +4,45 @@ body {
     width: 960px;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
     font-size: 18px;
-    margin: auto;
+    margin: 0 auto;
 
 }
 .header {  
     color: #ebebeb;
     height: 150;
     width: 900px;
-    margin: auto;
+    margin: 0 auto;
     border: #ebebeb;
     padding: 50px;
+    text-align: center;
 
 }
 nav{
     background: #ebebeb;
-    margin: 50px 50px;
+    margin: 50px 50px 50px 50px;
     width: 900px;
     height: 150px;
 }
-
 section {
     background: #ebebeb;
     width: 495px;
-    margin: auto;
-    margin-top: 50px;
-    float: left;
-}
-#aside {
-    background: #ebebeb;
     margin: 50px 50px;
-    padding: 50px 50px;
-    float: right;
+    float: left;
 }
 .blog {
     color: #ebebeb;
     background: #777;
     float: left;
-    margin: 50px 50px;
+    margin: 50px 50px 50px 50px;
     padding: 50px 50px;
+}
+.aside {
+    background: #ebebeb;
+    width: 495px;
+    height: 300px;
+    margin: 50px 50px 50px 50px auto;
+    padding: 50px 50px;
+    float: right;
 }
 .heading{
     color: #777;
@@ -50,5 +51,14 @@ section {
 .para{
     color: #777;
     background: #ebebeb;
+    overflow: auto;
+    float: right;
 }
-
+footer {
+    color: #ebebeb;
+    height: 150;
+    width: 900px;
+    margin: auto;
+    border: #ebebeb;
+    padding: 50px; 
+}
