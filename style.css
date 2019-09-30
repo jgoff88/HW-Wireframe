@@ -27,44 +27,38 @@ section {
     clear: right;
     background: #ebebeb;
     width: 495px;
-    height: 300px;
+    height: 600px;
     margin: 50px auto;
-    padding: 50px;
+    padding: 10px;
     border: 3px solid #777;
-    display: block;
 }
 .blog {
     color: #ebebeb;
     background: #777;
-    float: left;
+    width: 300px;
     border: 3px solid #777;
     margin: 50px auto;
-    padding: 50px 50px;
-    clear: right;
-    display: block;
+    padding: auto;
 }
 .aside {
     background: #ebebeb;
     float: right;
+    height: 600px;
     width: 300px;
     margin: 50px auto;
     border: 3px solid #777;
-    padding: 10px
+    padding: 10px;
 }
 .heading{
     color: #777;
+    width: 300px;
     background: #ebebeb;
-    float: left;
-    clear: right;
-    display: block;
 }
 .para{
     color: #777;
+    width: 300px;
     background: #ebebeb;
     overflow: auto;
-    float: left;
-    clear: right;
-    display: block;
 }
 footer {
     background: #ebebeb;
